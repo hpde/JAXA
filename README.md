@@ -6,7 +6,7 @@ Visit the [website](http://global.jaxa.jp/) [http://global.jaxa.jp/]
 
 # How to Use This Repository
 
-If you are a consumer of the metadata simple clone the repostory
+If you are a consumer of the metadata simply clone the repostory with:
 
 ````
 git clone -b master --single-branch --depth=1 https://github.com/hpde/JAXA
