@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Yohkoh/MSU/X-Ray.Images</ResourceID>
     <ResourceHeader>
       <ResourceName>Yohkoh Solar X-ray Images via VSO/MSU</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>Yohkoh Solar X-ray Images from Montana State via Virtual Solar Observatory</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Piet.C.Martens</PersonID>
@@ -20,7 +20,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>VSO interface at Stanford</Name>
-        <URL>http://www.virtualsolar.org</URL>
+        <URL>https://sdac.virtualsolar.org/cgi/search</URL>
       </AccessURL>
       <Format>FITS</Format>
     </AccessInformation>

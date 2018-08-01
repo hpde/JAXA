@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Yohkoh/WBS/Solar.Spectra</ResourceID>
     <ResourceHeader>
       <ResourceName>Yohkoh WBS Solar Spectra</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
       <Description>Yohkoh WBS (Wide Band Spectrometer, consisting of 2-30 keV Soft X ray Spectrometer, SXS, 20-600 keV Hard X ray Spectrometer, HXS, and 0.2-100 MeV Gamma Ray Spectrometer GRS) Solar Spectra.  SXS and GRX yield 128 point spectra every 2 or 4 sec. HXS determines 32-channel pulse height data to accompany 0.125-s rate data in 2 wide energy bands.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jun.Nishimura</PersonID>
@@ -32,7 +32,7 @@
       </AccessURL>
       <AccessURL>
         <Name>from Montana via VSO</Name>
-        <URL>http://www.virtualsolar.org</URL>
+        <URL>https://sdac.virtualsolar.org/cgi/search</URL>
       </AccessURL>
       <Format>FITS</Format>
     </AccessInformation>
