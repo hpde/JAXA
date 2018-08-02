@@ -11,7 +11,7 @@
         <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://VSPO/NumericalData/P_GEOTAIL_HDR_EPIC_96S</PriorID>
+      <PriorID>spase:/VSPO/NumericalData/P_GEOTAIL_HDR_EPIC_96S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Geotail/EPIC/PT96S</PriorID>
     </ResourceHeader>
     <AccessInformation>
