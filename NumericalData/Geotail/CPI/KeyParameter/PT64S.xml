@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/CPI/KeyParameter/PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail CPI Plasma Key Parameters (64s)</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>A combination of plasma key parameters from the Geotail CPI analyzers.
 
             The CPI-SW Solar Wind Analyzer provides
@@ -59,7 +59,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_K0_CPI&amp;index=sp_phys</URL>
         <ProductKey>GE_K0_CPI</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

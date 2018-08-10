@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/LEP/EDB/PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Editor-B 12 second Low-Energy Particles</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>12-second Editor-B low-energy particle data from the Geotail spacecraft.
 
             Editor-A data are only acquired with the real-time operation in Usuda Deep Space Center (UDSC),Japan, while the Editor-B data are 24-hours continuouslyrecorded in the onboard tape recorders and are dumpedover the NASA/JPL Deep Space Network (DSN) stations.
@@ -49,7 +49,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_EDB12SEC_LEP&amp;index=sp_phys</URL>
         <ProductKey>GE_EDB12SEC_LEP</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

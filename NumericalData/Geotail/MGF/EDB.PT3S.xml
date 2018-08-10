@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/MGF/EDB.PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Editor-B 3-second Magnetic Field Data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>3-second Editor-B magnetic field data from the Geotail spacecraft.
 
             As of February 1 2008 the Bz component of the magnetic field has been corrected in the data set.
@@ -48,7 +48,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_EDB3SEC_MGF&amp;index=sp_phys</URL>
         <ProductKey>GE_EDB3SEC_MGF</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
