@@ -5,67 +5,67 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/Regime_ID/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Regime Identification and Distant Tail Variability</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Geotail Regime Identification for the Deep Tail Phase of the Mission. The Time Resolution of the Data Set is Variable since the Regime ID is only listed when Geotail passes from one Regime to Another with Times listed to the Nearest Minute.</Description>
       <Acknowledgement>Dick McEntire</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Anthony.T.Y.Lui</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
         <Role>FormerPI</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Richard.W.McEntire</PersonID>
         <Role>FormerPI</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Stephen.P.Christon</PersonID>
         <Role>CoInvestigator</Role>
         <Role>DataProducer</Role>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Timothy.E.Eastman</PersonID>
         <Role>CoInvestigator</Role>
         <Role>DataProducer</Role>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Stuart.R.Nylund</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Magnetospheric Plasma Regimes identified using Geotail Measurements 1. Regime Identification and Distant Tail Variability</Name>
         <URL>https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/98JA01915</URL>
         <Description>Journal of Geophysical Research, Volume 103, Issue A10, Pages 23503-23520, October 1, 1998</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Magnetospheric Plasma Regimes using Geotail Measurements 2: Statistics, Spatial Distribution, and Geomagnetic Dependence</Name>
         <URL>https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/98JA01914</URL>
         <Description>Journal of Geophysical Research, Volume 103, Issue A10, Pages 23521-23542, October 1, 1998</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Description of Regime ID data product</Name>
         <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/geotail/epic/documents/GEOTAIL_Magnetospheric_Regime_Identification_data_product.pdf</URL>
         <Description>A Description of the GEOTAIL Magnetospheric Regime Identification Data Product</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>JHU/APL GEOTAIL/EPIC Science Data Center (SDC)</Name>
         <URL>http://sd-www.jhuapl.edu/Geotail/</URL>
         <Description>The SDC is the central processing and analysis facility for the EPIC particle instrument, one of seven instruments in the GEOTAIL mission</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VSPO/NumericalData/Geotail/Regime_ID/PT1M</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -74,16 +74,16 @@
         <Name>FTP access to Regime ID file (CDF) at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/regime_id/ge_regime_id_199210010000_v01.cdf</URL>
         <Description>In CDF via ftp from SPDF.</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to Regime ID file (CDF) at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/regime_id/ge_regime_id_199210010000_v01.cdf</URL>
         <Description>In CDF via http from SPDF.</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>When using these data, please acknowledge the following Geotail Instruments that contributed to this study: CPI, LEP, MGF, PWI and EPIC.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
       <Availability>Online</Availability>
@@ -92,9 +92,9 @@
         <Name>HTTP access to Regime ID file (ASCII) at EPIC</Name>
         <URL>http://sd-www.jhuapl.edu/Geotail/geotail_regime_id_kp.txt</URL>
         <Description>Geotail Regime ID file in ASCII at EPIC</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text.ASCII</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Geotail/CPI/HPA</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/Geotail/CPI/SWA</InstrumentID>
@@ -111,9 +111,9 @@
       <TimeSpan>
         <StartDate>1992-10-01T00:00:00.000</StartDate>
         <StopDate>1994-10-31T20:17:00.000</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT1M</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <Parameter>
       <Name>Time</Name>
       <ParameterKey>Epoch</ParameterKey>
@@ -126,14 +126,14 @@
         <AxisLabel>CDF Epoch</AxisLabel>
         <ScaleMin>6.2883108219904e+13</ScaleMin>
         <ScaleMax>6.3776642619904e+13</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>01-Oct-1992T00:00:00.000</ValidMin>
       <ValidMax>31-Oct-1994T20:17:00.000</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Interval</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -148,13 +148,13 @@
         <ValueFormat>I5</ValueFormat>
         <ScaleMin>1</ScaleMin>
         <ScaleMax>99999</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1</ValidMin>
       <ValidMax>99999</ValidMax>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Kp Minimum</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -167,13 +167,13 @@
         <ValueFormat>F4.1</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>10.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>Kp Average</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -186,13 +186,13 @@
         <ValueFormat>F4.1</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>10.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>Kp Maximum</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -205,13 +205,13 @@
         <ValueFormat>F4.1</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>10.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>Start Position (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -224,7 +224,7 @@
         <ValueFormat>F7.1</ValueFormat>
         <ScaleMin>-1000.0</ScaleMin>
         <ScaleMax>1000.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -232,29 +232,29 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>x</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Start Position Y GSE</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>y</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Start Position Z GSE</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>z</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Stop Position (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -267,7 +267,7 @@
         <ValueFormat>F7.1</ValueFormat>
         <ScaleMin>-1000.0</ScaleMin>
         <ScaleMax>1000.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -275,29 +275,29 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>x</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Stop Position Y GSE</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>y</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Stop Position Z GSE</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>z</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Region</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -326,11 +326,11 @@
       <RenderingHints>
         <AxisLabel>Region ID</AxisLabel>
         <ValueFormat>A8</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>RegionID</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -344,13 +344,13 @@
         <ValueFormat>I2</ValueFormat>
         <ScaleMin>1</ScaleMin>
         <ScaleMax>99</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1</ValidMin>
       <ValidMax>99</ValidMax>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Region Notes</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -360,10 +360,10 @@
       <RenderingHints>
         <AxisLabel>Region notes</AxisLabel>
         <ValueFormat>A80</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

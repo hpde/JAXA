@@ -5,29 +5,29 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/CPI/SWA/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail CPI Definitive Solar Wind Moments</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The CPI Solar Wind analyzer definitive plasma moments. The CPI/SW data are good in the solar wind and may be usefull in the magnetosheath.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Kent.L.Ackerson</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>CPI Survey Plots</Name>
-        <URL>http://www-pi.physics.uiowa.edu/cpi</URL>
+        <URL>http://www-pi.physics.uiowa.edu/cpi/</URL>
         <Description>Geotail CPI description and survey plots.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VMO/NumericalData/Geotail/CPI/UIOWA_PT48S</PriorID>
       <PriorID>spase://VMO/NumericalData/Geotail/CPI/SWA_PT48S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Geotail/CPI/SWA/PT48S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
@@ -35,20 +35,20 @@
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_h0/</URL>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_h0/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_H0_CPI&amp;index=sp_phys</URL>
         <ProductKey>GE_H0_CPI</ProductKey>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/ParticlesImagingGroup</RepositoryID>
       <Availability>Online</Availability>
@@ -56,10 +56,10 @@
       <AccessURL>
         <Name>University of Iowa: Geotail CPI SW data</Name>
         <URL>http://www-pi.physics.uiowa.edu/cpi-data/sw/</URL>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
-    </AccessInformation>
+</AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Geotail/CPI/SWA</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <MeasurementType>IonComposition</MeasurementType>
@@ -67,9 +67,9 @@
       <TimeSpan>
         <StartDate>1992-09-28T00:00:33</StartDate>
         <RelativeStopDate>-P2M</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT48S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <Caveats>The CPI solar wind ion analyzer is an E/Q analyzer and the initial distribution functions were calculated assuming that the plasma is H+. Care must be taken when multi-component plasmas are present. If He++ is present and is flowing with the same speed as the H+ component, it will contribute to the distribution function at twice the velocity (four times the energy) of the H+. To facilitate the automated processing of the data the integral was evaluated between  vmin  = 171 km/s and  vmax  = 1.35 &#xD7;  u . The resulting temperatures produce excellent fits to the observations. When He++ is present the distribution functions are consistent with an He++ temperature, THe++ = 4 &#xD7; TH+, i.e., the H+ and He++ have similar thermal velocities.</Caveats>
@@ -84,8 +84,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Vi GSE (r,theta,phi)</Name>
       <ParameterKey>SW_V</ParameterKey>
@@ -96,10 +96,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F9.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -110,7 +110,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1200.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Vtheta</Name>
           <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
@@ -119,7 +119,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>180.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Vphi</Name>
           <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
@@ -128,8 +128,8 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>360.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleType>AlphaParticle</ParticleType>
@@ -137,8 +137,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Vector</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Vi GSE</Name>
       <ParameterKey>SW_Vc</ParameterKey>
@@ -149,10 +149,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F7.0</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -162,7 +162,7 @@
           <ValidMin>-1400.0</ValidMin>
           <ValidMax>1400.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Vy</Name>
           <Qualifier>Component.J</Qualifier>
@@ -170,7 +170,7 @@
           <ValidMin>-1400.0</ValidMin>
           <ValidMax>1400.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-        </Element>
+</Element>
         <Element>
           <Name>Vz</Name>
           <Qualifier>Component.K</Qualifier>
@@ -178,8 +178,8 @@
           <ValidMin>-1400.0</ValidMin>
           <ValidMax>1400.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleType>AlphaParticle</ParticleType>
@@ -187,8 +187,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Vector</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Ti</Name>
       <ParameterKey>SW_T</ParameterKey>
@@ -197,7 +197,7 @@
       <Units>Component.K</Units>
       <RenderingHints>
         <ValueFormat>F7.0</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>10000.0</ValidMin>
       <ValidMax>1.0E7</ValidMax>
       <FillValue>-1.0E31</FillValue>
@@ -206,8 +206,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Np</Name>
       <ParameterKey>SW_P_Den</ParameterKey>
@@ -217,7 +217,7 @@
       <UnitsConversion>1e6&gt;m^-3</UnitsConversion>
       <RenderingHints>
         <ValueFormat>F8.3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.01</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0E31</FillValue>
@@ -226,8 +226,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Psw</Name>
       <ParameterKey>SW_Pressure</ParameterKey>
@@ -244,7 +244,7 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-      </Particle>
-    </Parameter>
-  </NumericalData>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>
