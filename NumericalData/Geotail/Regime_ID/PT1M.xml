@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/Regime_ID/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Regime Identification and Distant Tail Variability</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Geotail Regime Identification for the Deep Tail Phase of the Mission. The Time Resolution of the Data Set is Variable since the Regime ID is only listed when Geotail passes from one Regime to Another with Times listed to the Nearest Minute.</Description>
       <Acknowledgement>Dick McEntire</Acknowledgement>
       <Contact>
@@ -72,7 +72,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to Regime ID file (CDF) at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/regime_id/ge_regime_id_199210010000_v01.cdf</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/regime_id/ge_regime_id_199210010000_v01.cdf</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>

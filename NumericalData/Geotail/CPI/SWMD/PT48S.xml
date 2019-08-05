@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/CPI/SWMD/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail CPI Definitive Solar Wind Moments and three-dimensional velocity distribution function</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Geotail Comprehensive Plasma Inst (CPI), Definitive Solar Wind Analyzer (SWA) Moments and Distribution function.
 </Description>
       <Acknowledgement>Principle Investigator Louis.A.Frank,the radio and plasma wave research group at The University of Iowa, and the Space Physics Data Facility (SPDF)/NASA GSFC</Acknowledgement>
@@ -40,7 +40,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_swa/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_swa/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
 </AccessURL>
       <AccessURL>

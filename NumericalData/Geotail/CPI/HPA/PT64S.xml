@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Geotail CPI Hot Plasma Moments</ResourceName>
       <AlternateName>Geotail CPI HPA High Time Resolution Plasma Moments</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The CPI/HPA Hot Plasma Analyzer high time resolution moments of hot plasma:
 
             * Ion number density
@@ -43,7 +43,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_hpamom/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_hpamom/</URL>
 </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

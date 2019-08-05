@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>GPS Deduced ROTI Index, Standard Deviation of the Rate of Change of the Total Electron Content (TEC), World Maps and Movies, 15 min Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The ROTI Index is the Standard Deviation of the Rate of Change of the Total Electron Content, TEC, during a 15 min Interval. The TEC Values are measured between a Global Positioning Satellite, GPS, and Ground Receiver Station.</Description>
       <Acknowledgement>X. Pi</Acknowledgement>
       <Contact>
@@ -33,7 +33,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/gps/roti15min_jpl/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/gps/roti15min_jpl/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

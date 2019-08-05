@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Hinotori/PP/PT10.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>Hinotori Electron Density and Temperature Data</ResourceName>
-      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Hinotori electron density and temperature Data at 10-sec resolution</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Koh-Ichiro.Oyama</PersonID>
@@ -28,7 +28,7 @@
       </AccessURL>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/hinotori/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/hinotori/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
