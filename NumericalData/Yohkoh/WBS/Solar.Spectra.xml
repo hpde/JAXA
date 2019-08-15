@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Yohkoh/WBS/Solar.Spectra</ResourceID>
     <ResourceHeader>
       <ResourceName>Yohkoh WBS Solar Spectra</ResourceName>
-      <ReleaseDate>2018-08-01T17:53:31Z</ReleaseDate>
+      <ReleaseDate>2019-08-15T15:55:33Z</ReleaseDate>
       <Description>Yohkoh WBS (Wide Band Spectrometer, consisting of 2-30 keV Soft X ray Spectrometer, SXS, 20-600 keV Hard X ray Spectrometer, HXS, and 0.2-100 MeV Gamma Ray Spectrometer GRS) Solar Spectra.  SXS and GRX yield 128 point spectra every 2 or 4 sec. HXS determines 32-channel pulse height data to accompany 0.125-s rate data in 2 wide energy bands.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jun.Nishimura</PersonID>
@@ -27,8 +27,8 @@
         <URL>http://ylstone.physics.montana.edu/ylegacy/weekdirs/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>via ftp from GSFC/SDAC</Name>
-        <URL>ftp://umbra.nascom.nasa.gov/pub/yohkoh/online_archive/</URL>
+        <Name>via https from GSFC/SDAC</Name>
+        <URL>https://umbra.nascom.nasa.gov/pub/yohkoh/online_archive/</URL>
       </AccessURL>
       <AccessURL>
         <Name>from Montana via VSO</Name>
