@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/PWI/KP/PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail PWI 64-sec Key Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This set of key paraments from the Geotail Plasma Wave Instrument includes: Peak and average electric and magnetic spectra from the multichannel analyzer MCA (at 5 frequencies from 5.6 Hz to 311 kHz for the electric antenna and at 4 frequencies from 5.6 Hz to 10 kHz for the magnetic coils); Peak and average spectra intentsities (scala only) averaged over 64 seconds from the Sweep Frequency Analyzer SFA (24 Hz to 800 kHz); Frequency corresponding to the peak of the spectral intensities (scalar only); and spacecraft position in GSE cartesian coordinates. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hiroshi.Matsumoto</PersonID>
@@ -23,12 +23,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/geotail/pwi/</URL>
         <Description>In CDF via FTP from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/pwi/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

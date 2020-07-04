@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/MGF/PT15S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail 15-sec magnetic field data, solar wind only</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Data consist of 15-sec averages of magnetic field 
 magnitude and GSE Cartesian components, from the MGF magnetometer on 
 Geotail.  Data are for only the solar wind phases of the Geotail orbit.  
@@ -32,11 +32,11 @@ The Geotail position vector in GSE coordinates is included.</Description>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/geotail/mgf/mag_sw_15s_ascii/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/mgf/mag_sw_15s_ascii/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
