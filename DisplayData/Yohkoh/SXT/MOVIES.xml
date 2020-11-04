@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/DisplayData/Yohkoh/SXT/MOVIES</ResourceID>
     <ResourceHeader>
       <ResourceName>Yohkoh SXT X-ray Movie Maker</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2020-11-04T16:43:05Z</ReleaseDate>
       <Description>User-specified solar X-ray movies from Yohkoh/SXT</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Sam.Freeland</PersonID>
@@ -20,7 +20,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>SXT Movie Maker at Lockheed</Name>
-        <URL>http://www.lmsal.com/YPOP/sxt_movie.html</URL>
+        <URL>http://ylstone.physics.montana.edu/ylegacy/sxt_movie.html</URL>
       </AccessURL>
       <Format>MPEG</Format>
     </AccessInformation>
