@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Hinode/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>Hinode data (all-inclusive) via Project Page or DARTS</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>A wealth of Hinode movie, image and digital data
 are accessible via links from the NASA/MSFC Project web page and from the 
 DARTS data archive in Japan.  Data are from all three instruments, the 
@@ -41,7 +41,7 @@ http://hinode.nao.ac.jp/hsc_e/acknowledgement_e.shtml</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS Hinode page</Name>
-        <URL>http://darts.isas.jaxa.jp/solar/hinode/</URL>
+        <URL>https://www.darts.isas.jaxa.jp/solar/hinode/</URL>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>None</Encoding>

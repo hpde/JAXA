@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/DisplayData/Akebono/ATV/PT3H</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono ATV auroral images</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>These Akebono ATV auroral images are available
 at somewhat irregular time intervals.  There are also a few brief 
 movies of various types of auroral forms.</Description>
@@ -32,7 +32,7 @@ me!</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS_JAXA</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/akebono/ATV.html</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/akebono/ATV.html</URL>
       </AccessURL>
       <Format>PNG</Format>
       <Acknowledgement>In any publications, the use of the Akebono data 

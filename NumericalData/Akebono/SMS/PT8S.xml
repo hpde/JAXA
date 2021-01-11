@@ -5,12 +5,12 @@
     <ResourceID>spase://JAXA/NumericalData/Akebono/SMS/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono SMS digital binary ion count rates</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>These count rate data reside in the DARTS/Akebono
 binary Science DataBase (SDB).  They consist of count rates at 8-sec 
 spacecraft spin resolution, separately for thermal and suprathermal 
 H+, He+ and O+ ions.  Detailed information and a data-read program
-are found at http://darts.isas.jaxa.jp/akbn/readme/readme.sms.txt.</Description>
+are found at https://www.darts.isas.jaxa.jp/akbn/readme/readme.sms.txt.</Description>
       <Acknowledgement>In any publications, the use of the Akebono data 
 should be acknowledged, for example, as "Akebono SMS data were provided 
 by A.W. Yau through DARTS at Institute of Space and Astronautical Science, 
@@ -32,7 +32,7 @@ JAXA in Japan."</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS_JAXA</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/akebono/SMS.html</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/akebono/SMS.html</URL>
       </AccessURL>
       <Format>Binary</Format>
       <Acknowledgement>In any publications, the use of the Akebono data 

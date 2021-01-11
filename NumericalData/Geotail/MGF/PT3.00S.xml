@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/MGF/PT3.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail 3-sec magnetic field data</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>Geotail 3-sec magnetic field data from ISAS/DARTS</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Susumu.K.Kokubun</PersonID>
@@ -20,7 +20,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>3-s data at ISAS/DARTS</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/geotail/</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/geotail/</URL>
       </AccessURL>
       <Format>Text</Format>
     </AccessInformation>

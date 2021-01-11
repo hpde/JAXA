@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Akebono/LEP/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono LEP ion and electron count rates</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>These data consist of ion and electron count rates 
 taken in 18 pitch angle directions and in 29 energy channels between
 10eV and 16keV (electrons) or 13ev/Q and 20keV/Q (ions).  A full 
@@ -37,7 +37,7 @@ JAXA in Japan."</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS_JAXA</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/akebono/LEP.html</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/akebono/LEP.html</URL>
       </AccessURL>
       <Format>Text</Format>
       <Acknowledgement>In any publications, the use of the Akebono data 

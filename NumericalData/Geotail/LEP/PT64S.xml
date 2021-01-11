@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/LEP/PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail LEP 64-sec Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>Geotail LEP (Low-Energy Particles) 64-sec Solar Wind Key Parameters</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
@@ -34,7 +34,7 @@
       </AccessURL>
       <AccessURL>
         <Name>ISAS DARTS</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/geotail/</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/geotail/</URL>
       </AccessURL>
       <Format>CDF</Format>
     </AccessInformation>

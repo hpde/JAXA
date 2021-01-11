@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/MGF/PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail KP Magnetic Field Data (64s)</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>This data set contains the investigator-selected Key Parameters from the Magnetic Field instrument (MGF) on Geotail, as made available via NSSDC's interactive WWW interface CDAWeb.
 
             Selected references:
@@ -30,7 +30,7 @@
 </Contact>
       <InformationURL>
         <Name>The Geotail Magnetic Field Experiment (MGF)</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/geotail/jgg_mgf.pdf</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/geotail/jgg_mgf.pdf</URL>
         <Description>Reprint of Kokubun, S., T. Yamamoto, M. H. Acuna, K. Hayashi, K. Shiokawa, and H. Kawano, The Geotail Magnetic Field Experiment, J. Geomag. Geoelectr., 46, 7-21, 1994.</Description>
 </InformationURL>
       <InformationURL>

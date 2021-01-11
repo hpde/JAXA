@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/LEP/EDB/PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Editor-B 12 second Low-Energy Particles</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>12-second Editor-B low-energy particle data from the Geotail spacecraft.
 
             Editor-A data are only acquired with the real-time operation in Usuda Deep Space Center (UDSC),Japan, while the Editor-B data are 24-hours continuouslyrecorded in the onboard tape recorders and are dumpedover the NASA/JPL Deep Space Network (DSN) stations.
@@ -28,7 +28,7 @@
 </Contact>
       <InformationURL>
         <Name>The Geotail Low Energy Particle Experiment (LEP)</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf</URL>
         <Description>Reprint of Mukai, T., S. Machida, Y. Saito, M. Hirahara, T. Terasawa, N. Kaya, T. Obara, M. Ejiri, and A. Nishida, The low energy particle (LEP) experiment onboard the Geotail satellite, J. Geomag. Geoelectr., 46, 669-692, 1994.</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/Geotail/LEP/EDB.PT12S</PriorID>
@@ -62,7 +62,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS/Geotail</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/geotail/</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/geotail/</URL>
         <Description>Data ARchives and Transmission System (DARTS) is a versatile space science data archive for astrophysics, solar physics, and solar-terrestrial physics. DARTS primarily consists of the data acquired by Japanese scientific satellites and spacecrafts. DARTS is developed and maintained by the Center of Science-satellite Operation and Data Archive (C-SODA) at ISAS/JAXA.</Description>
 </AccessURL>
       <Format>Text</Format>

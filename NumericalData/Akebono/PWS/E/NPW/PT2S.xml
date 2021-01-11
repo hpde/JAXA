@@ -6,7 +6,7 @@
          <ResourceName>Akebono Plasma Waves and Sounder Experiments (PWS) Natural Plasma Wave (NPW) Data</ResourceName>
          <AlternateName>Akebono (EXOS-D) PWS Natural Plasma Wave Electric Field High Resolution Data</AlternateName>
          <AlternateName>ak_h1_pws</AlternateName>
-         <ReleaseDate>2018-03-09T15:35:11Z</ReleaseDate>
+         <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
          <Description>The Plasma Wave Observation and Sounder Experiment (PWS) observes both natural (NPW) and stimulated (SPW) plasma waves. The frequency range of the NPW system is 20 kHz to 5.12 MHz. These CDF data consist of Electric Field intensities measured by the PWS Recevier 1 (RX1) and Receiver 2 (RX2) units.</Description>
          <Acknowledgement>In order to confirm the reliability of the data, you are requested to contact the PWS data manager, Dr. Atsushi Kumamoto at Tohoku University before using the PWS data in oral/poster presentations. In publications, you should contact the PWS PI, Prof. Ono at Tohoku University and the PWS data manager, Dr. Atsushi Kumamoto at Tohoku University before submission to confirm the authorship/acknowledgement. You are also requested to send reprints to the PWS PI and the PWS Data manager. Akebono PWS PI: Prof. Takayuki Ono, Tohoku University, Aoba, Aramaki, Aoba-ku, Sendai, 980-8578, Japan. E-mail: ono@stpp.gp.tohoku.ac.jp. FAX: +81-22-795-6517. PWS Data Manager: Dr. Atsushi Kumamoto, Tohoku University, Aoba, Aramaki, Aoba-ku, Sendai, 980-8578, Japan. E-mail: kumamoto@pparc.gp.tohoku.ac.jp. FAX: +81-22-795-6406.</Acknowledgement>
          <Contact>
@@ -25,7 +25,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>Access to Akebono (EXOS-D) PWS CDFs</Name>
-            <URL>http://darts.isas.jaxa.jp/stp/data/exosd/pws/</URL>
+            <URL>https://www.darts.isas.jaxa.jp/stp/data/exosd/pws/</URL>
             <Description>Directory listing of files</Description>
             <Language>en</Language>
          </AccessURL>

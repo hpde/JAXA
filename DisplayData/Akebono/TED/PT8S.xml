@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/DisplayData/Akebono/TED/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono TED thermal electron spectral plots</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>These Akebono Thermal Electron Energy Detecftor
 (TED) plots display color-coded amplitudes of the second harmonic
 of incident flux, vs. energy (over 0-5 eV) and time. Each plot covers 
@@ -31,7 +31,7 @@ JAXA in Japan."</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS_JAXA</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/akebono/TED.html</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/akebono/TED.html</URL>
       </AccessURL>
       <Format>PNG</Format>
       <Acknowledgement>In any publications, the use of the Akebono data 

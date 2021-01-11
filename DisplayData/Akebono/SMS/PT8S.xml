@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/DisplayData/Akebono/SMS/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono SMS summary plots of ion count rates</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>These data consist of plots of color-coded ion 
 count rates vs. spin phase angle and time, for thermal H+, He++, 
 He+ and O+ ions and for suprathermal H+ and O+ ions.  Each plot 
@@ -32,7 +32,7 @@ JAXA in Japan."</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS_JAXA</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/akebono/SMS.html</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/akebono/SMS.html</URL>
       </AccessURL>
       <Format>PNG</Format>
       <Acknowledgement>In any publications, the use of the Akebono data 

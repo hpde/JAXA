@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Akebono/TED/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono TED thermal electron digital spectra</ResourceName>
-      <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
+      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
       <Description>These Akebono Thermal Electron Energy Detecftor
 (TED) digital data reside at the DARTS/Akebono binary Science Database 
 (SDB).  They consist of amplitudes of the second harmonic of incident 
@@ -33,7 +33,7 @@ JAXA in Japan."</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>DARTS_JAXA</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/akebono/TED.html</URL>
+        <URL>https://www.darts.isas.ac.jp/stp/akebono/TED.html</URL>
       </AccessURL>
       <Format>Binary</Format>
       <Acknowledgement>In any publications, the use of the Akebono data 
