@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/DisplayData/Akebono/RDM/P1Y</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono RDM electron flux annual plots</ResourceName>
-      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
+      <ReleaseDate>2021-03-02T17:39:48Z</ReleaseDate>
       <Description>There are two families of electron flux plots.
 "Mapping plots" show annually averaged color-coded fluxes of 
 0.3-0.95, 0.95-2.5 and &gt;2.5 MeV electrons, plotted in a radial
@@ -23,7 +23,7 @@ Space and Astronautical Science, JAXA in Japan."</Acknowledgement>
       </Contact>
       <InformationURL>
         <Name>DARTS_RDM readme</Name>
-        <URL>http://www.stp.isas.jaxa.jp/akebono/readme/readme.rdm.txt</URL>
+        <URL>https://www.stp.isas.jaxa.jp/akebono/readme/readme.rdm.txt</URL>
       </InformationURL>
       <PriorID>spase://VSPO/DisplayData/Akebono/RDM/</PriorID>
       <PriorID>spase://VSPO/DisplayData/Akebono/RDM/P1Y</PriorID>

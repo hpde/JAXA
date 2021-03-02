@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/DisplayData/Akebono/LEP/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Akebono LEP ion and electron spectral plots</ResourceName>
-      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
+      <ReleaseDate>2021-03-02T17:39:48Z</ReleaseDate>
       <Description>These data consist of plots of color-coded ion 
 and electron count rates vs. energy and time, in each of several
 pitch angle bins.  The energy ranges are 13ev/Q to 20keV/Q (ions) 
@@ -21,7 +21,7 @@ JAXA in Japan."</Acknowledgement>
       </Contact>
       <InformationURL>
         <Name>DARTS_LEP readme</Name>
-        <URL>http://www.stp.isas.jaxa.jp/akebono/readme/readme.lep.txt</URL>
+        <URL>https://www.stp.isas.jaxa.jp/akebono/readme/readme.lep.txt</URL>
       </InformationURL>
       <PriorID>spase://VSPO/DisplayData/Akebono/LEP/PT8s</PriorID>
       <PriorID>spase://VSPO/DisplayData/Akebono/LEP/PT8S</PriorID>
