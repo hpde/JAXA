@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/LEP/PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail LEP 64-sec Key Parameters</ResourceName>
-      <ReleaseDate>2021-01-11T19:21:41Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Geotail LEP (Low-Energy Particles) 64-sec Solar Wind Key Parameters</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
@@ -29,7 +29,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_K0_LEP&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_K0_LEP&amp;index=sp_phys</URL>
         <ProductKey>GE_K0_LEP</ProductKey>
       </AccessURL>
       <AccessURL>

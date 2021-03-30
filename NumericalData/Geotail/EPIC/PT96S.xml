@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/EPIC/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail EPIC 96-sec Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Geotail EPIC (Energetic Particles &amp; Ion Composition) 96-sec Key Parameters</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
@@ -29,7 +29,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_K0_EPI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_K0_EPI&amp;index=sp_phys</URL>
         <ProductKey>GE_K0_EPI</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

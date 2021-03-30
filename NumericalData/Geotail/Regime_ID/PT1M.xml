@@ -5,7 +5,7 @@
     <ResourceID>spase://JAXA/NumericalData/Geotail/Regime_ID/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Regime Identification and Distant Tail Variability</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Geotail Regime Identification for the Deep Tail Phase of the Mission. The Time Resolution of the Data Set is Variable since the Regime ID is only listed when Geotail passes from one Regime to Another with Times listed to the Nearest Minute.</Description>
       <Acknowledgement>Dick McEntire</Acknowledgement>
       <Contact>
@@ -56,7 +56,7 @@
 </InformationURL>
       <InformationURL>
         <Name>Description of Regime ID data product</Name>
-        <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/geotail/epic/documents/GEOTAIL_Magnetospheric_Regime_Identification_data_product.pdf</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/epic/documents/GEOTAIL_Magnetospheric_Regime_Identification_data_product.pdf</URL>
         <Description>A Description of the GEOTAIL Magnetospheric Regime Identification Data Product</Description>
 </InformationURL>
       <InformationURL>
