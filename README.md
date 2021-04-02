@@ -1,6 +1,6 @@
 # JAXA
 
-Japan Aerospace Exploration Agency
+Japan Aerospace Exploration Agency (JAXA)
 
 Visit the [website](http://global.jaxa.jp/) [http://global.jaxa.jp/]
 
