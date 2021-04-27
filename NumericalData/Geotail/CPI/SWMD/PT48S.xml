@@ -1,39 +1,39 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://JAXA/NumericalData/Geotail/CPI/SWMD/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail CPI Definitive Solar Wind Moments and three-dimensional velocity distribution function</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T17:52:35Z</ReleaseDate>
       <Description>Geotail Comprehensive Plasma Inst (CPI), Definitive Solar Wind Analyzer (SWA) Moments and Distribution function.
 </Description>
       <Acknowledgement>Principle Investigator Louis.A.Frank,the radio and plasma wave research group at The University of Iowa, and the Space Physics Data Facility (SPDF)/NASA GSFC</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Kent.L.Ackerson</PersonID>
         <Role>DataProducer</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>CPI Survey Plots</Name>
         <URL>http://www-pi.physics.uiowa.edu/cpi/</URL>
         <Description>Geotail CPI description and survey plots.</Description>
-</InformationURL>
+      </InformationURL>
       <Association>
         <AssociationID>spase://JAXA/NumericalData/Geotail/CPI/SWA/PT48S</AssociationID>
         <AssociationType>RevisionOf</AssociationType>
         <Note>Includes the underlying distribution function (flux as a function of energy and 3D direction) from which the moments are then derived.</Note>
-</Association>
+      </Association>
       <PriorID>spase://VMO/NumericalData/Geotail/CPI/SWMD/PT48S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Geotail/CPI/SWMD/PT48S</PriorID>
-</ResourceHeader>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -42,15 +42,15 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_swa/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/cpi/cpi_swa/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -59,9 +59,23 @@
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_SW_CPI&amp;index=sp_phys</URL>
         <ProductKey>GE_SW_CPI</ProductKey>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>GE_SW_CPI</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Geotail/CPI/SWA</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <MeasurementType>IonComposition</MeasurementType>
@@ -69,9 +83,9 @@
       <TimeSpan>
         <StartDate>1992-10-06T00:00:55.000Z</StartDate>
         <StopDate>1994-10-01T00:00:00.000Z</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT48S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <Parameter>
@@ -85,8 +99,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Velocity</Name>
       <ParameterKey>Velocity</ParameterKey>
@@ -102,8 +116,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>FlowSpeed</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>SW Polar Angle</Name>
       <ParameterKey>PolarAngle</ParameterKey>
@@ -118,8 +132,8 @@
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Azimuthal</Name>
       <ParameterKey>Azimuthal</ParameterKey>
@@ -134,8 +148,8 @@
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Temperature</Name>
       <ParameterKey>Temperature</ParameterKey>
@@ -149,8 +163,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Density</Name>
       <ParameterKey>Density</ParameterKey>
@@ -161,8 +175,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>xgse</Name>
       <ParameterKey>xgse</ParameterKey>
@@ -172,11 +186,11 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>ygse</Name>
       <ParameterKey>xgse</ParameterKey>
@@ -186,11 +200,11 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>zgse</Name>
       <ParameterKey>xgse</ParameterKey>
@@ -200,19 +214,19 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>quality flag</Name>
       <ParameterKey>quality</ParameterKey>
       <Description>quality flag indicating the quality of the data(0=OK)</Description>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Ion Flux</Name>
       <ParameterKey>flux</ParameterKey>
@@ -222,13 +236,13 @@ and the third to the 21 PHIVALUES (degrees): [       114.500       120.736      
       <Units>cm^-6_sec^3</Units>
       <Structure>
         <Size>12 64 21</Size>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleType>Ion</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
-</NumericalData>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://JAXA/NumericalData/Geotail/MGF/EDA/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Editor-A 3-second Magnetic Field Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T17:52:35Z</ReleaseDate>
       <Description>3-second Editor-A magnetic field data from the Geotail spacecraft.
 
             As of February 1 2008 the Bz component of the magnetic field has been corrected in the data set.
@@ -15,24 +15,24 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Tsugunobu.Nagai</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.H.Fairfield</PersonID>
         <Role>Scientist</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>The Geotail Magnetic Field Experiment (MGF)</Name>
         <URL>https://www.darts.isas.ac.jp/stp/geotail/jgg_mgf.pdf</URL>
         <Description>Reprint of Kokubun, S., T. Yamamoto, M. H. Acuna, K. Hayashi, K. Shiokawa, and H. Kawano, The Geotail Magnetic Field Experiment, J. Geomag. Geoelectr., 46, 7-21, 1994.</Description>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VMO/NumericalData/Geotail/MGF/EDA.PT3S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Geotail/MGF/PT3.00S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Geotail/MGF/EDA/PT3S</PriorID>
-</ResourceHeader>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
@@ -40,21 +40,35 @@
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/geotail/mgf/eda3sec_mgf/</URL>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/mgf/eda3sec_mgf/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GE_EDA3SEC_MGF&amp;index=sp_phys</URL>
         <ProductKey>GE_EDA3SEC_MGF</ProductKey>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>Data provider T. Nagai at STELAB Nagoya University, Japan and CDAWeb.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>GE_EDA3SEC_MGF</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Data provider T. Nagai at STELAB Nagoya University, Japan and CDAWeb.</Acknowledgement>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/DARTS</RepositoryID>
       <Availability>Online</Availability>
@@ -63,20 +77,20 @@
         <Name>DARTS/Geotail</Name>
         <URL>https://www.darts.isas.ac.jp/stp/geotail/</URL>
         <Description>Data ARchives and Transmission System (DARTS) is a versatile space science data archive for astrophysics, solar physics, and solar-terrestrial physics. DARTS primarily consists of the data acquired by Japanese scientific satellites and spacecrafts. DARTS is developed and maintained by the Center of Science-satellite Operation and Data Archive (C-SODA) at ISAS/JAXA.</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
       <Acknowledgement>In any publications, the use of the Geotail data should be acknowledged, for example, as "Geotail magnetic field data were provided by T. Nagai through DARTS at Institute of Space and Astronautical Science, JAXA in Japan."</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Geotail/MGF</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1993-09-01T09:52:07</StartDate>
         <RelativeStopDate>-P2Y</RelativeStopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT3S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
@@ -92,8 +106,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>B (GSE)</Name>
       <ParameterKey>BGSE</ParameterKey>
@@ -103,31 +117,31 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Bx (GSE)</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>By (GSE)</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Bz (GSE)</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <FillValue>-1.0E31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Geotail position (GSE)</Name>
       <ParameterKey>XYZGSE</ParameterKey>
@@ -138,7 +152,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -148,7 +162,7 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Y (GSE)</Name>
           <Qualifier>Component.J</Qualifier>
@@ -156,7 +170,7 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Z (GSE)</Name>
           <Qualifier>Component.K</Qualifier>
@@ -164,13 +178,13 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>B (GSM)</Name>
       <ParameterKey>BGSM</ParameterKey>
@@ -180,31 +194,31 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Bx (GSM)</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>By (GSM)</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Bz (GSM)</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <FillValue>-1.0E31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Geotail position (GSM)</Name>
       <ParameterKey>XYZGSM</ParameterKey>
@@ -215,7 +229,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -225,7 +239,7 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Y (GSM)</Name>
           <Qualifier>Component.J</Qualifier>
@@ -233,7 +247,7 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Z (GSM)</Name>
           <Qualifier>Component.K</Qualifier>
@@ -241,13 +255,13 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>B (SM)</Name>
       <ParameterKey>BSM</ParameterKey>
@@ -257,31 +271,31 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Bx (SM)</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>By (SM)</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Bz (SM)</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <FillValue>-1.0E31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Geotail position (SM)</Name>
       <ParameterKey>XYZSM</ParameterKey>
@@ -292,7 +306,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -302,7 +316,7 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Y (SM)</Name>
           <Qualifier>Component.J</Qualifier>
@@ -310,7 +324,7 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Z (SM)</Name>
           <Qualifier>Component.K</Qualifier>
@@ -318,13 +332,13 @@
           <ValidMin>-500.0</ValidMin>
           <ValidMax>500.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>sdev_SinFit</Name>
       <ParameterKey>XYZstdev</ParameterKey>
@@ -334,7 +348,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -344,7 +358,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>20.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>sdev_SinFit(y)</Name>
           <Qualifier>Component.J</Qualifier>
@@ -352,7 +366,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>20.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>sdev_SinFit(z)</Name>
           <Qualifier>Component.K</Qualifier>
@@ -360,13 +374,13 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>20.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Field>
         <Qualifier>StandardDeviation</Qualifier>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-</Field>
-</Parameter>
-</NumericalData>
+      </Field>
+    </Parameter>
+  </NumericalData>
 </Spase>
